@@ -39,7 +39,7 @@ public abstract class Token {
         if (value == null || value.length() == 0)
             throw new IllegalArgumentException("O lexema não pode ser vazio.");
 
-        columnStart = start;
+        columnStart = tart;
         columnEnd = start + value.length() - 1;
         lineNum = line;
 
